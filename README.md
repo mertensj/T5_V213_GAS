@@ -11,9 +11,9 @@ setup()
   http.begin(client, server, 8086, "/ping");
 - clean display
 loop()
-- report total number of GAS usage records stored in InfluxDB
+- report total number of GAS usage records stored in InfluxDB<br>
   /query?db=energydb&q=SELECT+count(gas)+from+log
-- get the GAS usage for the last 5 days (aggregate records per 24 hours)
+- get the GAS usage for the last 5 days (aggregate records per 24 hours)<br>
   /query?db=energydb&q=SELECT+max(gas)+from+log+WHERE+time+>=+now()+-5d+GROUP+BY+time(24h)
 - draw graph with the GAS usage per day during last 5 days
 
