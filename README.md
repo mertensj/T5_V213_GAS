@@ -39,6 +39,8 @@ loop()
   https://github.com/adafruit/Adafruit-GFX-Library
 - ArduinoJson : install via Arduino Library Manager<br>
   https://github.com/bblanchon/ArduinoJson
+- draw graph is based on routine used in:<br>
+  https://github.com/markbirss/LilyGo-EPD-4-7-OWM-Weather-Display
   
 
 ### Shopping list:
