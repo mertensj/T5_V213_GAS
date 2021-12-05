@@ -29,5 +29,5 @@ Part|Price|Qtd.|Url
 LilyGO TTGO T5 V2.3 ESP32 |€ 17.5|1|https://www.tinytronics.nl/shop/nl/development-boards/microcontroller-boards/met-wi-fi/lilygo-ttgo-t5-v2.3-esp32-met-2.13-inch-e-paper-e-ink
 
 ### Reference Pictures:
-<img src="jpg/img1.jpg" width="32%"/><img src="jpg/img2.jpg" width="32%"/>
+<img src="jpg/T5_V213_GAS.jpg" width="32%"/>
 
