@@ -32,7 +32,7 @@ loop()
 - Select the correct board<br>
   -> Tools -> Boards -> ESP32 Boards -> ESP32 Dev Module
    
-### LIBs:
+### LIBs & Code References:
 - https://github.com/lewisxhe/GxEPD via Arduino -> Sketch -> Include Library -> Add .ZIP Library<br>
   Do _NOT_ install GxEPD via Arduino Library Manager !!
 - Adafruit GFX Library : install via Arduino Library Manager<br>
