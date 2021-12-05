@@ -12,7 +12,7 @@ GxEPD_Class display(io, EPD_RSET, EPD_BUSY);
 #include <SPI.h>                // In-built
 #include <time.h>               // In-built
 
-#include "my_secret.h"
+#include "my_ssid.h"
 
 #define SCREEN_WIDTH   122
 #define SCREEN_HEIGHT  250
