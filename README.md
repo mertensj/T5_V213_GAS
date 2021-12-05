@@ -7,9 +7,10 @@ GAS usage is reported each minute in an InfluxDB.
 setup()
 - initialise display
 - connect to WiFi
-- check if InfluxDB is alive with a http ping command
+- check if InfluxDB is alive with a http ping command<br>
   http.begin(client, server, 8086, "/ping");
 - clean display
+
 loop()
 - report total number of GAS usage records stored in InfluxDB<br>
   /query?db=energydb&q=SELECT+count(gas)+from+log
