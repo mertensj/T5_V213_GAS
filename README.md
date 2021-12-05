@@ -2,7 +2,7 @@
 Report last 5 days of GAS usage on
 LilyGO TTGO T5 V2.3 ESP32 - 2.13 inch E-paper
 
-GAS usage is reported each minute in an InfluxDB.
+This program consults an InfluxDB in which GAS usage is reported each minute.
 
 setup()
 - initialise display
