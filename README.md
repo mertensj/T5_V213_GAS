@@ -35,9 +35,9 @@ loop()
 ### LIBs:
 - https://github.com/lewisxhe/GxEPD via Arduino -> Sketch -> Include Library -> Add .ZIP Library<br>
   Do _NOT_ install GxEPD via Arduino Library Manager !!
-- Adafruit GFX Library : install via Arduino Library Manager
+- Adafruit GFX Library : install via Arduino Library Manager<br>
   https://github.com/adafruit/Adafruit-GFX-Library
-- ArduinoJson : install via Arduino Library Manager
+- ArduinoJson : install via Arduino Library Manager<br>
   https://github.com/bblanchon/ArduinoJson
   
 
