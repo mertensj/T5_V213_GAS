@@ -12,6 +12,7 @@ setup()
 - clean display
 
 loop()
+- get local time & print to display
 - report total number of GAS usage records stored in InfluxDB<br>
   /query?db=energydb&q=SELECT+count(gas)+from+log
 - get the GAS usage for the last 5 days (aggregate records per 24 hours)<br>
