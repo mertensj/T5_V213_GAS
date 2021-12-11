@@ -17,6 +17,7 @@ loop()
 - get the GAS usage for the last 5 days (aggregate records per 24 hours)<br>
   /query?db=energydb&q=SELECT+max(gas)+from+log+WHERE+time+>=+now()+-5d+GROUP+BY+time(24h)
 - draw graph with the GAS usage per day during last 5 days
+- poweroff display & wait 5 minutes before to continue
 
  Display Size:
  - Width : 122 pixels
