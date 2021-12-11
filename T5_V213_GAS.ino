@@ -1,3 +1,33 @@
+/*
+ * 
+ * LilyGO TTGO T5 V2.3 ESP32 2.13 inch e-paper display
+ * 
+ * ARDUINO SETUP
+ * - add Arduino -> Preferences -> Additional Board Manager URL:
+ *     https://dl.espressif.com/dl/package_esp32_index.json
+ * - Board Manager:
+ *     search for esp32 Espressif Systems
+ *     -> Install
+ * - Select the correct board
+ *     -> Tools -> Boards -> ESP32 Boards -> ESP32 Dev Module
+ *
+ *
+ * LIBs & Code References:
+ * - https://github.com/lewisxhe/GxEPD via Arduino -> Sketch -> Include Library -> Add .ZIP Library
+ *      Do NOT install GxEPD via Arduino Library Manager !!
+ * - Adafruit GFX Library : install via Arduino Library Manager
+ *      https://github.com/adafruit/Adafruit-GFX-Library
+ * - ArduinoJson : install via Arduino Library Manager
+ *      https://github.com/bblanchon/ArduinoJson
+ * - draw graph is based on routine used in:
+ *      https://github.com/markbirss/LilyGo-EPD-4-7-OWM-Weather-Display
+ *
+ *
+ *
+ *
+*/
+
+
 #define LILYGO_T5_V213
 #include <boards.h>
 #include <GxEPD.h>
@@ -505,7 +535,7 @@ void loop() {
   }
 
   display.update();
-  //display.powerDown();
+  display.powerDown();
   //delay(30000);
-  delay(50000);
+  delay(60000*5);
 }
